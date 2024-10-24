@@ -1,5 +1,4 @@
 import requests
-import pandas as pd
 from datetime import datetime, timedelta
 
 response = requests.get("https://bank.gov.ua/NBU_Exchange/exchange_site?start=20241017&end=20241023&valcode=pln&sort=exchangedate&order=desc&json")
